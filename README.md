@@ -1,8 +1,18 @@
-# React + Vite
+Real-Time Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a real-time chat application built using NodeJS, ReactJS, and ChatEngine.io. It includes features such as user authentication, socket connections, real-time messaging, image and file attachments, group chats, direct messages, and read receipts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+User Authentication: Secure login and signup functionalities.
+Real-Time Messaging: Instant messaging with socket connections.
+Image and File Attachments: Support for sending and receiving images and files.
+Group Chats and DMs: Create and manage group chats as well as direct messages.
+Read Receipts: Track when messages are read by recipients.
+Tech Stack
+
+Frontend: ReactJS
+Backend: NodeJS, Express
+Chat Management: ChatEngine.io
